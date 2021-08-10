@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                    /* //EN PROCES0// */
+:root {
+    --clr-main: #00669F;
+    --clr-details: #1CD1B0;
+    --clr-light-grey: #f3f3f3;
+    --clr-dark-grey: #333333;
+    --clr-dark-blue: #001D2D;
+    --ff-main: 'Roboto', sans-serif;
+    --ff-inter: 'Inter', sans-serif;
+    --ff-karla: 'Karla', sans-serif;
+}
+
+.header-descuento{
+    background-color: var(--clr-details);
+    font-family: var(--ff-main);
+    font-size: 0.9rem;
+    padding: 0.1em 1rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--clr-main);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    background-color: var(--clr-dark-blue);
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+footer{
+    background-color: var(--clr-main);
+    color: var(--clr-light-grey);
+    text-align: center;
+    font-family: var(--ff-main);
+    line-height: 2.5rem;
+}
